@@ -6,51 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        var date = new Date()
         var arr = ["원숭이띠","닭띠","개띠","돼지띠","쥐띠","소띠","범띠","토끼띠","용띠","뱀띠","말띠","양띠",]
-        var year = date.getFullYear
-        switch (year%12) {
+        function year(birth) 
+        {
+            switch (birth%12) 
+            {
             case 0:
-                for (var i in arr) {
-                    alert()
-                }
+                return arr[0]
                 break;
             case 1:
-                
+                return arr[1]
                 break;
             case 2:
-                
+                return arr[2]  
                 break;
             case 3:
-                
+                return arr[3]
                 break;
             case 4:
-                
+                return arr[4]
                 break;
             case 5:
-                
+                return arr[5]
                 break;
             case 6:
-                
+                return arr[6]
                 break;
             case 7:
-                
+                return arr[7]
                 break;
             case 8:
-                
+                return arr[8]
                 break;
             case 9:
-                
+                return arr[9]
                 break;
             case 10:
-                
+                return arr[10]
                 break;
             case 11:
-                
+                return arr[11]
                 break;
             default:
                 break;
+            }
         }
+        alert("출생년도 1994 : "+ year(1994))
     </script>
 </head>
 <body>
