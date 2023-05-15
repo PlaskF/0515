@@ -9,7 +9,11 @@
         function volume(radius,height) {
             return radius*radius*Math.PI*height
         }
-        alert(volume(4,4))
+
+        var radius = parseInt(prompt("* 원의 반지름 입력:","입력"))
+        var height = parseInt(prompt("* 원기둥의 높이 입력:","입력"))
+
+        alert(volume(radius,height))
     </script>
 </head>
 <body>
